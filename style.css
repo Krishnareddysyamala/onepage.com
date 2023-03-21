@@ -128,8 +128,12 @@ color: #368338e1;
 .column
 {
   float: left;
-  width: 40%;
+  width: 20%;
   cursor: pointer;
+}
+.column img
+{
+  border-radius: 10px;
 }
 .row::after
 {
@@ -137,4 +141,12 @@ color: #368338e1;
   clear: both;
   display: table;
 
+}
+.column h4, p 
+{
+  color: white;
+}
+.column:hover
+{
+scale: 1.1;
 }
