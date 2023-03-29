@@ -116,53 +116,14 @@ font-family: 'EB Garamond', serif;
 color: #368338e1;
 }
 
-.movie-items
-{
-  width: 100%;
-  height: 10%;
-  margin-top: 30px;
-  margin-left: 1%;
-  padding: 20px;
+ul h1 u{
+  color: royalblue;
+}
 
-}
-.column
-{
-  float: left;
-  width: 20%;
-  cursor: pointer;
-}
-.column img
-{
-  border-radius: 10px;
-}
-.row::after
-{
-  content: '';
-  clear: both;
-  display: table;
 
-}
-.column h4, p 
-{
+a h4{
   color: white;
 }
-.column:hover
-{
-scale: 1.1;
-}
-
-.movie-items h4 i
-{
- color: cornflowerblue ; 
-}
-.movie-items ul h1  u
-{
-  color: deeppink
-  
-}
-
-
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
