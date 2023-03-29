@@ -122,7 +122,10 @@ ul h1 u{
 
 
 a h4 i{
-  color: yellowgreen;
+  color: rgb(43, 4, 44);
+}
+a{
+  color: #fff;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
